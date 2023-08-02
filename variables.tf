@@ -37,7 +37,7 @@ variable "res_group" {
 
 variable "os_version" {
   type        = string
-  default     = "ibm-redhat-9-0-minimal-amd64-2"
+  default     = "ibm-redhat-8-6-minimal-amd64-2"
   description = "Check the OS versions available for VPC VSIs"
 }
 
@@ -56,7 +56,7 @@ variable "profile_rocks" {
 
 variable "vsi_number" {
   type        = number
-  default     = 1
+  default     = 3
   description = "Number of VSIs in each Zone"
 }
 
